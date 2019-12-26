@@ -1,5 +1,8 @@
 pragma solidity ^0.5.11;
 
+import "./ownable.sol";
+
+
 contract ZombieFactory {
 
     event NewZombie(uint zombieId, string name, uint dna);
