@@ -1,4 +1,5 @@
-pragma solidity ^0.5.3;
+pragma solidity >=0.4.21 <0.7.0;
+
 
 import "./Leilao.sol";
 
