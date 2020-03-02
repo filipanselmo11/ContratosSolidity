@@ -17,4 +17,11 @@ contract Tcc {
     function obterHashPaciente(address id) public view returns(address) {
         return id;
     }*/
+    function() public returns(){
+
+    }
+
+    function() {
+        
+    }
 }
