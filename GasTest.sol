@@ -18,6 +18,16 @@ contract GasTest {
     }
 
     function updateLinkHash(bytes32[2] memory _newHash) public returns (bool) {
-        
+       linkPart1 = _newHash[0];
+       linkPart2 = _newHash[1];
+       return true; 
     }
+
+    function setCID(bytes32 _cid) public returns (bool) {
+        hash = _cid;
+        return true;
+    }
+
+
+
 }
