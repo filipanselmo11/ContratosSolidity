@@ -1,0 +1,49 @@
+{
+	"ABI version": 2,
+	"version": "2.2",
+	"header": ["time"],
+	"functions": [
+		{
+			"name": "constructor",
+			"inputs": [
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "owner",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"owner","type":"address"}
+			]
+		},
+		{
+			"name": "whitelist",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"whitelist","type":"map(address,bool)"}
+			]
+		}
+	],
+	"data": [
+	],
+	"events": [
+		{
+			"name": "LogProtected",
+			"inputs": [
+				{"name":"sender","type":"address"}
+			],
+			"outputs": [
+			]
+		}
+	],
+	"fields": [
+		{"name":"_pubkey","type":"uint256"},
+		{"name":"_timestamp","type":"uint64"},
+		{"name":"_constructorFlag","type":"bool"},
+		{"name":"owner","type":"address"},
+		{"name":"whitelist","type":"map(address,bool)"}
+	]
+}
